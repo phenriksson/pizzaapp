@@ -13,8 +13,13 @@
 }
 
 .heading{
-background-color: rgb(3, 109, 8);
-padding: 200px 40px;
+background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395__340.jpg") ;
+text-shadow: 0.1px 0.1px #291c1c;
+background-repeat: no-repeat;
+background-size: 3500px 1800px;
+color: #f7fffe;
+
+padding: 575px 80px;
 }
 
 
@@ -22,20 +27,6 @@ padding: 200px 40px;
   font-size: 25px;
   font-weight: bold;
   
-}
-.navbar-right {
-  float: right;
-  font-size: 15px;
-  font-weight: bold;
-  column-count: 3
-}
-.navbar-middle {
-  float: middle;
-}
-
-.navbar-active {
-  background-color: dodgerblue;
-  color: white;
 }
 
 .heading-middle{
@@ -45,9 +36,22 @@ img {
   border-radius: 50%;
 }
 .footer{
-background-color: rgb(214, 60, 9);;
-padding: 20px 10px;;
+background-color: rgb(255, 255, 255);;
+padding: 700px 80px;;
+background-image: url("https://cdn.pixabay.com/photo/2018/04/17/17/15/italian-3328121__340.png");
+background-position: right top;
+background-repeat: no-repeat;
+
 }
+.footerbox {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  margin: auto;
+}
+
 /***************************
 ****************************
 These are the styles for

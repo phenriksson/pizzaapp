@@ -5,7 +5,6 @@ import reportWebVitals from './reportWebVitals';
 import {Footer, Header, App, Maincontent} from './App';
 
 
-
 ReactDOM.render(
   <React.StrictMode>
     <Header/>
