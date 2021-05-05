@@ -22,6 +22,11 @@ color: #f7fffe;
 padding: 575px 80px;
 }
 
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
 
 .navbar a.logo {
   font-size: 25px;
@@ -32,26 +37,47 @@ padding: 575px 80px;
 .heading-middle{
   float: middle;
 }
-img {
-  border-radius: 50%;
+
+
+.undermiddstyle {
+
+  
+  background-image: url("https://th.bing.com/th/id/OIP.H5CN-eQLnZPVETaseexIdAHaEK?w=286&h=180&c=7&o=5&dpr=1.1&pid=1.7") ;
+  width: 1900px;
+  height: 1200px;
+  
+  background-size: 1900px 1200px;
+
+  background-repeat: no-repeat;
+ text-decoration-color: cornsilk;
 }
-.footer{
-background-color: rgb(255, 255, 255);;
-padding: 700px 80px;;
-background-image: url("https://cdn.pixabay.com/photo/2018/04/17/17/15/italian-3328121__340.png");
-background-position: right top;
-background-repeat: no-repeat;
+.positione {
+position:fixed
 
 }
-.footerbox {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-  margin: auto;
+.thirdseck {
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821__340.jpg") ;
+  width: 1900px;
+  height: 1200px;
+  
+  background-size: 1900px 1200px;
+
+  background-repeat: no-repeat;
+ text-decoration-color: cornsilk;
+
 }
 
+h3 {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 1000px
+  
+
+}
 /***************************
 ****************************
 These are the styles for
